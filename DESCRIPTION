@@ -1,0 +1,19 @@
+Package: gelse
+Title: Generalize ifelse to logical matrix
+Version: 0.0.0
+Author: Zebulun Arendsee
+Maintainer: Zebulun Arendsee <arendsee@iastate.edu>
+URL: https://github.com/arendsee/gelse
+BugReports: https://github.com/arendsee/gelse/issues
+Description: gelse is a generalization of the R function ifelse. Where ifelse
+    takes one condition and returns two possible values, gelse takes n conditions
+    and returns a vector of (n+1) levels.
+Depends:
+    R (>= 3.3.1)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+LinkingTo: Rcpp
+Imports:
+    Rcpp
+RoxygenNote: 5.0.1
